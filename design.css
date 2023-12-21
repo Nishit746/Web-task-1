@@ -1,0 +1,67 @@
+.gridContainer{
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 100px 400px 100px;
+    display: grid;
+    background-color: rgb(4, 148, 45);
+    height: 46vw;
+    width: 99vw;
+    gap: 30px 20px;
+    justify-content: center;
+    align-content: center;    
+}
+#item-1{
+    grid-column: 1/4;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    height: 90px;
+}
+#item-5{
+    grid-column: 1/4;
+}
+.item{
+    background-color: rgb(245, 245, 59);
+    font-size: larger;
+    border-radius: 40px;
+    border-style: dashed;
+    align-self: center;
+}
+.pic img{
+    height: 200px;
+    width: 300px;
+    align-content:space-around
+}
+.foyer img{
+    height: 200px;
+    width: 350px;
+    object-position: center;
+}
+.foyer{
+    display: wrap;
+    box-align: center;
+}
+.item{
+    text-align: center;
+    align-self: center;
+}
+.line{
+    text-align: left;
+}
+.main img{
+     height: 200px;
+     width: 300px;
+}
+.web{
+    text-align: left;
+}
+.links{
+    text-align: right;
+}
+.logo img{
+    height: 15px;
+    width: 15px;
+}
+.logos img{
+    height: 25px;
+    width: 25px;
+}
